@@ -1,0 +1,86 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --nav-bg: #f0f0f0;
+  --button-bg: #dddddd;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f5f5f5;
+  --nav-bg: #1f1f1f;
+  --button-bg: #333333;
+}
+
+nav {
+  background-color: var(--nav-bg);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--text);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --nav-bg: #f0f0f0;
+  --button-bg: #dddddd;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f5f5f5;
+  --nav-bg: #1f1f1f;
+  --button-bg: #333333;
+}
+
+nav {
+  background-color: var(--nav-bg);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--text);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
